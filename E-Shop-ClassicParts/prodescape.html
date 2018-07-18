@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Home Page</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="estilo.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+  <div class="topo">
+    <div class="text-center">
+      <div class="logo container">
+        <a href="index.php" title="ClassicParts">
+          <img src="img/logo.png" alt="ClassicParts">    
+        </a> 
+      </div>
+    </div>
+    
+
+    <div class="text-right">
+      <div class="social">
+        <a href="https://www.facebook.com/ClassicParts">
+          <img src="img/facebook.png">    
+        </a> 
+        <a href="#">
+          <img src="img/twitter.png">    
+        </a> 
+        <a href="#">
+          <img src="img/pinterest.png">    
+        </a> 
+        <a href="#">
+          <img src="img/google.png">    
+        </a> 
+        <a href="#">
+          <img src="img/instagram.png">    
+
+        </a> 
+        <a href="#">
+          <img src="img/youtube.png">    
+        </a> 
+      </div>
+    </div>
+  </div>
+
+<ol class="breadcrumb">
+  <li><a href="index.php">Home</a></li>
+  <li><a href="sachs.php">Sachs</a></li>
+  <li class="active">Escape</li>
+</ol>
+
+<!-- BEGIN MENU -->
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <li class="active"> <a class="navbar-brand" href="index.php">{Home}</a></li>
+    </div>
+
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">{Dropdown} <span class="glyphicon glyphicon-plus-sign"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="sachs.php">{Mota1}</a></li>
+            <li><a href="#">{Mota2}</a></li>
+            <li><a href="#">{Mota3}</a></li>
+          </ul>
+        </li>
+      </ul>
+  
+
+
+    <ul class="nav navbar-nav navbar-right">
+      <li><a href="contactos.php"></span> {Menu1}</a></li>
+      <li><a href="register.php?error=&nome=&email="><span class="glyphicon glyphicon-user"></span> {Menu2}</a></li>
+      <li><a href="login.php"><span class="glyphicon glyphicon-log-in"></span> {Menu3}</a></li>
+      <li><a href="login.php" class="btn btn-default" type="button"><i class="glyphicon glyphicon-shopping-cart" ></i></a></li>
+    </ul>
+</nav>
+
+  <!-- END MENU -->
+  <hr>
+
+<div class="text-center">
+<div class="container">
+<div class="contorno">
+  <h3>Panelas de escape</h3>
+</div>
+</div>
+</div>
+
+
+<div class="row">
+  <!-- BEGIN LINHA1 -->
+  <div class="col-sm-6 col-lg-6 col-md-6">
+      <div class="thumbnail">
+        <img src="{IMG}" alt="" width="400" height="400" >
+        <div class="caption">
+          <div class="text-center">
+           <h4>
+           <a href="roda.php?PRODUTO={ID}">{NOME}</a>
+          </h4>
+          <h3>
+            <a href="roda.php?PRODUTO={ID}" class="btn btn-success btn-block" role="button">{PRECO}</a>
+          </h3>
+          <div class="disponibilidade">
+            <span class='glyphicon glyphicon-ok'> {DISPONIBILIDADE}</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- END LINHA1 -->
+</div>
+
+
+<div class="container">
+ <div class="item">
+      <div class="text-center">
+      <img src="img/seta.png" width="100" height="100">
+      </div>
+    </div>
+</div>
+
+
+<div class="text-center">
+<div class="container">
+<div class="contorno">
+  <h3>Curvas de escape</h3>
+</div>
+</div>
+</div>
+
+
+<div class="row">
+  <!-- BEGIN LINHA2 -->
+  <div class="col-sm-6 col-lg-6 col-md-6">
+      <div class="thumbnail">
+        <img src="{IMG}" alt="" width="400" height="400" >
+        <div class="caption">
+          <div class="text-center">
+           <h4>
+           <a href="roda.php?PRODUTO={ID}">{NOME}</a>
+          </h4>
+          <h3>
+            <a href="roda.php?PRODUTO={ID}" class="btn btn-success btn-block" role="button">&euro;{PRECO}</a>
+          </h3>
+          <div class="disponibilidade">
+            <span class='glyphicon glyphicon-ok'> {DISPONIBILIDADE}</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- END LINHA2 -->
+</div>
+
+<div class="container">
+ <div class="item">
+      <div class="text-center">
+      <img src="img/seta.png" width="100" height="100">
+      </div>
+    </div>
+</div>
+
+<div class="text-center">
+<div class="container">
+<div class="contorno">
+  <h3>Acessórios</h3>
+</div>
+</div>
+</div>
+
+
+<div class="row">
+  <!-- BEGIN LINHA3 -->
+  <div class="col-sm-6 col-lg-6 col-md-6">
+      <div class="thumbnail">
+        <img src="{IMG}" alt="" width="400" height="400" >
+        <div class="caption">
+          <div class="text-center">
+           <h4>
+           <a href="roda.php?PRODUTO={ID}">{NOME}</a>
+          </h4>
+          <h3>
+            <a href="roda.php?PRODUTO={ID}" class="btn btn-success btn-block" role="button">&euro;{PRECO}</a>
+          </h3>
+          <div class="disponibilidade">
+            <span class='glyphicon glyphicon-ok'> {DISPONIBILIDADE}</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- END LINHA3 -->
+</div>
+
+</body>
+
+<footer>
+<hr>
+<div class="container">
+<div class="row">
+  <div class="col-sm-6 col-lg-6 col-md-6">
+    <div class="footer-copyright">
+      <div class="w3-half"  style="text-align:left;">
+      &copy; 2016 Desenvolvimento de Aplica&ccedil;&otilde;es Web
+      </div>
+      <div class="w3-half" style="text-align:left;">
+       Designed by <a href="#">Miguel Guerreiro</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6 col-lg-6 col-md-6">            
+    <div class="Pagamento " style="text-align:right;">
+    <img src="img/footer.png" alt="Meios de Pagamento" />
+    </div>
+  </div>
+</div>
+</div>
+
+<hr>
+</footer>
+</html>
