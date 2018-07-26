@@ -1,5 +1,5 @@
 ### Classic Parts
-## Description
+# Description
 
 Em relação ao php também existem grupos principais, sendo eles o grupo do registo, o grupo do login, o grupo do carrinho de compras e o grupo dos produtos.
 O grupo de registo é composto por 3 ficheiros de php, register.php, register_action.php e success.php. No register_action.php , o código o que faz é ir buscar através do $_POST feito no template registo.html os valores de nome, email,..., através do submit que é feito no fim formulário (registo.html) e são definidos como variáveis, e defini-los como variáveis.
