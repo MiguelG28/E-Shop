@@ -1,5 +1,5 @@
-### Classic Parts
-# Description
+## Classic Parts
+## Description
 
 Em relação ao php também existem grupos principais, sendo eles o grupo do registo, o grupo do login, o grupo do carrinho de compras e o grupo dos produtos.
 O grupo de registo é composto por 3 ficheiros de php, register.php, register_action.php e success.php. No register_action.php , o código o que faz é ir buscar através do $_POST feito no template registo.html os valores de nome, email,..., através do submit que é feito no fim formulário (registo.html) e são definidos como variáveis, e defini-los como variáveis.
@@ -43,3 +43,14 @@ Em relação à estrutura da tabela nov, possui 7 atributos e tal como a tabela 
 Por fim temos a tabela “disp” e a “tipo”, na primeira é guardado a referência relativa à disponibilidade (Em Stock/Fora de Stock) de um certo produto. Na segunda o que será guardado é a variedade de tipo de produtos que existe, como por exemplo neste caso em específico irá ser (Roda/Escape). Os atributos de ambas as tabelas irão ser usados como chave estrangeira na tabela nov, de forma a estabelecer e impor um link entre os dados em duas tabelas.
 
 7
+
+## Authors
+
+* **Miguel Guerreiro** - [My profile](https://github.com/MiguelG28)
+
+See also the list of [contributors](https://github.com/MiguelG28/Ualg-Eventos/contributors) who participated in this project.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
+
