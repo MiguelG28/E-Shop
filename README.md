@@ -4,7 +4,7 @@
 Em relação ao php também existem grupos principais, sendo eles o grupo do registo, o grupo do login, o grupo do carrinho de compras e o grupo dos produtos.
 O grupo de registo é composto por 3 ficheiros de php, register.php, register_action.php e success.php. No register_action.php , o código o que faz é ir buscar através do $_POST feito no template registo.html os valores de nome, email,..., através do submit que é feito no fim formulário (registo.html) e são definidos como variáveis, e defini-los como variáveis.
 
-1
+![alt text](https://github.com/MiguelG28/E-Shop/blob/master/Examples/1.png)
 
 Depois valida essas variáveis definidas e em caso de erro envia um link embebido que vai ser recebido pelo $_GET realizado register.php que enviará uma mensagem de erro ao utilizador, em caso de sucesso irá criar um novo utilizador com os dados que vêm do registo.html e insere na base de dados. Como disse anteriormente o register.php verifica os erros que vai buscar aos links enviados pelo register_action e dá uma mensagem de erro ao utilizador, preenche também as variáveis do template registo.html com os valores anteriormente inserido pelo utilizador em caso de erro. No success.php é chamado quando o registo é bem-sucedido e preenche o template register_success.html com os valores indicados no php.
 
