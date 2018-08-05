@@ -36,6 +36,8 @@ Por fim, o ultimo elemento do grupo dos produtos que é importante explicar é o
 
 O que esta porção de código irá representar será uma linha com os produtos com o id=10 e 11.
 
+[Click here for more Web App screenshots](https://github.com/MiguelG28/E-Shop/tree/master/Examples)
+
 ## DataBase
 
 Em relação à base de dados, esta é constituída por 4 tabelas, sendo elas a tabela de “users” que é uma tabela com os dados dos utilizadores, uma tabela chamada “nov”, ou seja, com os novos produtos que são inseridos na base de dados, e por fim duas tabelas que foram construidas para completar a tabela de produtos sendo elas a tabela” disp” e a “tipo”.
